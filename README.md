@@ -1,59 +1,62 @@
 # LiveClearMic
-Automatic Bluetooth HFP routing for cleaner headset microphone recordings on Android, without root.
 
-# LiveClearMic
+Automatic Bluetooth HFP routing for cleaner headset microphone recordings on Android, without root.
 
 LiveClearMic improves Bluetooth headset microphone recordings on Android by automatically switching to the HFP audio route when microphone use is detected.
 
-No root required.
-
 ## Why LiveClearMic?
 
-Some Android devices do not automatically use the optimal Bluetooth audio route for microphone recordings. This can result in poor microphone quality or ineffective voice-focused noise reduction.
+Some Android devices do not automatically use the Bluetooth headset microphone for regular microphone recordings.
 
-LiveClearMic automatically activates the Bluetooth HFP route when a supported recording starts.
+Instead, apps may continue using the phone's built-in microphone, even when a Bluetooth headset is connected.
 
-During regular phone calls and supported VoIP calls, LiveClearMic pauses its own routing logic and leaves call audio handling to Android, since the system already manages the Bluetooth call route itself.
+LiveClearMic detects microphone use and temporarily activates the Bluetooth HFP audio route, allowing supported apps to use the headset microphone.
 
-## Current status
+The routing is only applied when needed for microphone recordings.
 
-LiveClearMic is currently in development.
-
-Tested primarily on:
-- Samsung Galaxy S24
-- Android 16
-- OnePlus Buds 4
-
-Support for other devices and headsets may vary.
+During regular phone calls and supported VoIP calls, LiveClearMic pauses and lets Android handle the Bluetooth call route normally.
 
 ## Features
 
-- Automatic Bluetooth HFP routing for recordings
-- No root required
-- Pauses during phone and supported VoIP calls
-- Optional Startmute to hide Bluetooth route startup noise
+- Automatic Bluetooth HFP routing
+- Works without root
+- Automatic detection of microphone recordings
+- Remembers selected Bluetooth headsets
+- Startmute to reduce unwanted noise during HFP startup
 - Dutch and English interface
-- Local-only settings
-- No audio recording or storage
-- No analytics
-- No advertisements
+- Automatically stays out of the way during phone and supported VoIP calls
+- Runs locally on the device
+- No account required
+
+## Current status
+
+LiveClearMic is currently under active development and testing.
+
+Bluetooth audio behaviour can differ between Android devices, manufacturers and headsets, so compatibility may vary.
+
+More testing and device support will follow as development continues.
 
 ## Privacy
 
-LiveClearMic does not collect, store or transmit personal data.
+LiveClearMic is designed to work locally on your Android device.
 
-The app does not record or store microphone audio.
+The app:
 
-Settings are stored locally on the device.
+- does not upload or store your audio
+- does not use analytics
+- does not contain advertisements
+- does not require an online account
+
+For more information, see [PRIVACY.md](PRIVACY.md).
 
 ## License
 
-Source code is available under the PolyForm Shield License 1.0.0.
+LiveClearMic is released under the PolyForm Shield License.
 
-The LiveClearMic name, KreeZiE name and associated branding are not licensed for use in derivative products.
+See [LICENSE](LICENSE) for the full license text.
 
-## Contact
+## Bugs and technical issues
 
-Created by KreeZiE.
+Found a bug or experiencing a technical problem?
 
-For bugs and technical issues, please use GitHub Issues.
+Please open an issue on the [LiveClearMic GitHub Issues page](https://github.com/KreeZiEdad/LiveClearMic/issues).
