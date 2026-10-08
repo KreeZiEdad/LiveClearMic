@@ -25,7 +25,7 @@ During regular phone calls and supported VoIP calls, LiveClearMic pauses and let
 - Automatically activates when a saved Bluetooth headset connects
 - Quickly enable or disable LiveClearMic from the Android notification panel
 - Startmute to reduce unwanted noise during HFP startup
-- Dutch and English interface
+- English and Dutch interface
 - Automatically stays out of the way during phone and supported VoIP calls
 - Runs locally on the device
 - No account required
