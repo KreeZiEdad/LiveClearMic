@@ -26,12 +26,18 @@ Support for other devices and Bluetooth headsets may vary.
 
 ## Installation
 
+LiveClearMic requires **Android 12 or newer**.
+
 1. Open the latest release on the GitHub **Releases** page.
 2. Download the latest LiveClearMic `.apk` file.
 3. Open the downloaded APK on your Android device.
 4. If Android asks for permission to install apps from your browser or file manager, allow it temporarily.
-5. Install LiveClearMic.
-6. Open the app and select your Bluetooth headset.
+5. Install and open LiveClearMic.
+6. Allow LiveClearMic to connect to nearby Bluetooth devices when prompted.
+7. Allow notifications when prompted. LiveClearMic uses a persistent notification while the service is active.
+8. Select your Bluetooth headset in LiveClearMic.
+
+LiveClearMic does **not** require microphone permission.
 
 Android may show a warning because the app is installed outside the Google Play Store. This is expected for the GitHub release.
 
