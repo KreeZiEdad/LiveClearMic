@@ -14,7 +14,7 @@ During regular phone calls and supported VoIP calls, LiveClearMic pauses its own
 
 ## Current status
 
-LiveClearMic is currently in development and available as a public beta.
+LiveClearMic is currently available as a public beta.
 
 Tested primarily on:
 
@@ -44,6 +44,7 @@ Future updates can be installed by downloading the newer APK and installing it o
 - Pauses during phone and supported VoIP calls
 - Optional Startmute to hide Bluetooth route startup noise
 - English and Dutch interface
+- Automatic language selection on first launch
 - Local-only settings
 - No microphone audio recording or storage
 - No analytics
@@ -96,6 +97,16 @@ Settings such as the selected Bluetooth headset and Startmute configuration are 
 LiveClearMic does not use analytics, tracking or advertising services.
 
 See [PRIVACY.md](PRIVACY.md) for more information.
+
+## Support LiveClearMic
+
+LiveClearMic is free to use.
+
+If you find LiveClearMic useful and would like to support its development, you can buy me a coffee:
+
+☕ [Donate via DonoLink](https://donolink.nl/u/kreezie)
+
+Donations are completely optional.
 
 ## License
 
