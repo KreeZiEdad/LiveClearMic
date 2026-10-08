@@ -37,8 +37,6 @@ LiveClearMic requires **Android 12 or newer**.
 7. Allow notifications when prompted. LiveClearMic uses a persistent notification while the service is active.
 8. Select your Bluetooth headset in LiveClearMic.
 
-LiveClearMic does **not** require microphone permission.
-
 Android may show a warning because the app is installed outside the Google Play Store. This is expected for the GitHub release.
 
 Future updates can be installed by downloading the newer APK and installing it over the existing version. Your LiveClearMic settings should remain preserved.
