@@ -1,0 +1,33 @@
+LiveClearMic 2.0
+Version name: 2.0
+Version code: 20000
+Official build counter: 80
+Base: LiveClearMic 1.9.9 build 79
+Target SDK: 34
+
+Language:
+- No stored choice: Dutch Android locale -> NL; every other locale -> EN.
+- Manual NL/EN selection is persisted and takes precedence.
+
+Startmute:
+- System mute only.
+- Slider 250-750 ms in 25 ms steps.
+- Default/reset 500 ms.
+- Direct absolute System mute deadline from recording detection.
+- No Privacy capture, Ksssh capture, hidden compensation or route-triggered release.
+
+Support/UI:
+- Diagnose removed from visible overflow menu.
+- Five taps on Gemaakt door / Made by KreeZiE copy compact diagnosis.
+- Toast: Diagnose gekopieerd / Diagnosis copied.
+- Version 5-tap easter egg remains: 80 builds later...
+
+Calls:
+- Existing PAUZE/PAUSED presentation and call-routing bypass remain unchanged.
+
+Privacy:
+- No RECORD_AUDIO permission.
+- No microphone capture, audio storage, analytics, ads or network permission.
+
+Public source:
+- GitHub package must exclude all signing material and private build metadata.

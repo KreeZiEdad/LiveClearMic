@@ -1,0 +1,3 @@
+PASS: 171 methods, 4135 reachable Smali instructions/labels checked.
+Checks: register types, receiver/argument compatibility, wide argument pairs, branches, exception joins.
+LIMITATION: custom static checker, not ART verification; framework method existence is not resolved here.
