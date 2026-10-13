@@ -1,14 +1,16 @@
 # LiveClearMic
 
-LiveClearMic improves Bluetooth headset microphone recordings on Android by automatically switching to the HFP audio route when microphone use is detected.
+LiveClearMic improves Bluetooth headset mic noise reduction for Android recordings (for example, WhatsApp and Telegram voice messages) using automatic HFP routing.
 
 **No root required.**
 
 ## Why LiveClearMic?
 
-Some Android devices do not automatically use the optimal Bluetooth audio route for microphone recordings. This can result in poor microphone quality or ineffective voice-focused noise reduction.
+LiveClearMic started as a personal fix for noisy Bluetooth microphone recordings in WhatsApp voice messages.
 
-LiveClearMic automatically activates the Bluetooth HFP route when a supported recording starts.
+During phone calls, the Bluetooth microphone and voice-focused processing worked well, but regular recordings and voice messages could contain much more background noise.
+
+LiveClearMic was built to automatically activate the Bluetooth HFP audio route during recordings, bringing that call-style Bluetooth microphone processing to supported recording apps without root.
 
 During regular phone calls and supported VoIP calls, LiveClearMic pauses its own routing logic and leaves call audio handling to Android, since the system already manages the Bluetooth call route itself.
 
